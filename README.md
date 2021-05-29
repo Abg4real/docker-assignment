@@ -1,10 +1,22 @@
-Default data <br>
-```username```:```scalereal```<br>
-```password```:```scalereal```
+### Create a simple docker image with Debian:buster-slim which has mysql up and running
 
-Commands to execute: <br>
-```sudo docker build .```<br>
-```sudo docker container create <Contaier Name> <Image name/id>```<bbr>
-```sudo docker exec -it <Container name/id>```<br>
-```mysql -u scalreal -p```<br>
+#### Default user
+```
+username:scalereal
+password:scalereal
+```
+
+Commands to execute:
+```
+sudo docker build .
+```
+```
+sudo docker container create <Contaier Name> <Image name/id>
+```
+```
+sudo docker exec -it <Container name/id>
+```
+```
+mysql -u scalreal -p
+```
 
